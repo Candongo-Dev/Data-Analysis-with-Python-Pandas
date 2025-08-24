@@ -1,4 +1,4 @@
-# Data-Analysis-with-Python-Pandas-2025
+# Data Analysis with Python Pandas
 
 Project Summary
 This project aimed to analyze a dataset detailing data scientist salaries and roles. 
