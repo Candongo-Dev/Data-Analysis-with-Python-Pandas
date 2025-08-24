@@ -1,4 +1,4 @@
-# Data Analysis with Python Pandas
+# Data Analysis with Python & Panda
 
 Project Summary
 This project aimed to analyze a dataset detailing data scientist salaries and roles. 
