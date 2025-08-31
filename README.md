@@ -8,7 +8,7 @@ To enhance accessibility, we built an interactive dashboard using Streamlit, ena
 Development was carried out in Visual Studio Code within a Python virtual environment (created via venv). 
 The final dashboard was successfully deployed to Streamlit Cloud.
 
-## 📊 Data 
+# 📊 Data 
 The primary dataset used in this application is a cleaned CSV file derived from the Alura Archive.
 
 - File: Data ("https://raw.githubusercontent.com/guilhermeonrails/data-jobs/refs/heads/main/salaries.csv")
@@ -39,6 +39,9 @@ With this initial analysis, we were able to answer several key questions, such a
 - Where are the majority of companies in the sample headquartered?
 - What is the most common employment status?
 - What is the typical size of companies represented in the sample?
+
+# 📊📊 Data Visualization Stage
+Statistical graphs are essential for exploring and conveying insights from data. I used histograms, boxplots, and bar charts to enhance the understanding and interpretation of the DataFrame.
 
 ## 🛠️  Technical Stack
 - Language: Python
