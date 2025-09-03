@@ -1,12 +1,7 @@
 # Data Analysis with Python & Panda
 
-This project aimed to analyze a dataset detailing data scientist salaries and roles. 
-Using Python with the Pandas library, we performed data cleaning to ensure accurate analysis. 
-We explored the dataset through statistical visualizations histograms, boxplots, and bar charts created with Matplotlib.
-
-To enhance accessibility, we built an interactive dashboard using Streamlit, enabling users to filter data and generate graphs efficiently. 
-Development was carried out in Visual Studio Code within a Python virtual environment (created via venv). 
-The final dashboard was successfully deployed to Streamlit Cloud.
+   This project focused on analyzing a dataset containing information about data scientist roles and salaries. 
+   The primary objective was to extract meaningful insights through data cleaning, exploration, and visualization.
 
 # 📊 Data 
 The primary dataset used in this application is a cleaned CSV file derived from the Alura Archive.
@@ -40,24 +35,34 @@ With this initial analysis, we were able to answer several key questions, such a
 - What is the most common employment status?
 - What is the typical size of companies represented in the sample?
 
-# 📊📊 Data Visualization Stage
-Statistical graphs are essential for exploring and conveying insights from data. I used histograms, boxplots, and bar charts to enhance the understanding and interpretation of the DataFrame.
+# 📈 Data Exploration / Visualization Stage
+Generated statistical visualizations including:
+- Histograms to observe distribution patterns
+- Boxplots to detect outliers and understand data spread
+- Bar charts to compare categorical variables
 
-## 🛠️  Technical Stack
+## 🛠️🔧 Tools & Technologies
 - Language: Python
-- Code editor used: Jupyter Notebook - Google Colab (in the cloud)
-- Web Framework: Streamlit
-- Data Manipulation: Pandas, NumPy
-- Data Visualization: Plotly, Matplotlib
+- Libraries Used: Pandas for data manipulation, Matplotlib for visualizations
+- Development Environment: Visual Studio Code with a virtual environment (venv)
+- Dashboard Framework: Streamlit
 
 ## ⚙️ Setup and Installation
 
-Build an interactive dashboard with Streamlit to filter data and create practical visualizations.
+      - Create the virtual environment: python3 -m venv .venv
+      - Activate the virtual environment on Windows: .venv\Scripts\Activate
+      - Activate the virtual environment on MAC/LINUX: source .venv/bin/activate
+      - Create a file called requirements.txt and add the necessary packages. pandas==2.2.3 streamlit==1.44.1 plotly==5.24.1
+      - Install the necessary libraries. pip install -r requirements.txt
+      - Create the Dashboard Interface with Streamlit
+      
+## 🌐 Dashboard Deployment
+Built an interactive dashboard using Streamlit to allow users to:
 
-- Create the virtual environment: python3 -m venv .venv
-- Activate the virtual environment on Windows: .venv\Scripts\Activate
-- Activate the virtual environment on MAC/LINUX: source .venv/bin/activate
-- Create a file called requirements.txt and add the necessary packages. pandas==2.2.3 streamlit==1.44.1 plotly==5.24.1
-- Install the necessary libraries. pip install -r requirements.txt
-- Create the Dashboard Interface with Streamlit
-- We did the deploy the Dashboard to Streamlit Cloud: https://streamlit.io/cloud
+ - Filter data dynamically
+ - Generate custom visualizations
+
+Successfully deployed the dashboard to Streamlit Cloud, making it accessible online: https://aplication-data-science.streamlit.app/ 
+
+
+
